@@ -1,0 +1,18 @@
+<div class="container" *ngIf="isLoggedIn">
+  <div class="profile">
+    <h3>Name:</h3>
+    <input type="text" [(ngModel)]="user.username" placeholder="userName">
+
+    <h3>Faculty:</h3>
+    <input type="text" [(ngModel)]="user.faculty" placeholder="userFaculty">
+
+    <h3>Score:</h3>
+    <input type="number" [(ngModel)]="user.score" placeholder="userScore">
+
+    <div class="edit">
+      <button class="btn" (click)="updateProfile()">Edit Profile</button>
+      <button class="btn" (click)="logout()">Log Out</button>
+      <button class="btn" (click)="deleteProfile()">Delete Profile</button>
+    </div>
+  </div>
+</div>

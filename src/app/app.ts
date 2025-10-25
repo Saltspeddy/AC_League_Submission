@@ -1,12 +1,26 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
+import { Header } from './components/header/header';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  imports: [RouterOutlet, Header],
+  template: 
+  `
+    <app-header/>
+    <main>
+      <router-outlet/>
+    </main>
+    `,
+
+    styles:[
+      `
+        h1{
+          background-color: red;
+        }
+      `
+    ]
 })
 export class App {
-  protected readonly title = signal('AC_League_Submission');
+  title = "my app"
 }

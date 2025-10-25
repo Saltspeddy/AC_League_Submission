@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="profile">
+    <h3>Name:</h3>
+    <input type="text" placeholder="Enter username" [(ngModel)]="username">
+
+    <h3>Faculty:</h3>
+    <input type="text" placeholder="Enter faculty" [(ngModel)]="faculty">
+
+    <h3>Password:</h3>
+    <input type="password" placeholder="Enter password" [(ngModel)]="password">
+
+
+    <div class="edit">
+      <button class="btn" (click)="createProfile()">Create Profile</button>
+    </div>
+  </div>
+</div>
