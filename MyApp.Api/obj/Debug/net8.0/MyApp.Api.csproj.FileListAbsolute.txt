@@ -157,3 +157,4 @@
 /home/dragos/Documents/Sites/AC_League_Submission/MyApp.Api/obj/Debug/net8.0/MyApp.Api.pdb
 /home/dragos/Documents/Sites/AC_League_Submission/MyApp.Api/obj/Debug/net8.0/MyApp.Api.genruntimeconfig.cache
 /home/dragos/Documents/Sites/AC_League_Submission/MyApp.Api/obj/Debug/net8.0/ref/MyApp.Api.dll
+/home/dragos/Documents/Sites/AC_League_Submission/MyApp.Api/obj/Debug/net8.0/MyApp.Api.sourcelink.json

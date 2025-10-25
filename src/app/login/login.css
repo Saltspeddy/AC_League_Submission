@@ -1,0 +1,6 @@
+.redirect{
+    transition: 200ms;
+}
+.redirect:hover{
+    color: #393E41;
+}

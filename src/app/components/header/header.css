@@ -2,6 +2,7 @@ header{
     height: 4em;
     width: 100vw;
     background-color: #FFAD05;
+    position: fixed;
 }
 
 nav{
@@ -10,7 +11,7 @@ nav{
     justify-content: space-between;
 }
 
-.profile{
+.icon{
     padding: 1em;
     height: 40px;
     width: 40px;

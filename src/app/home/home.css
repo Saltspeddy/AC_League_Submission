@@ -1,0 +1,31 @@
+.home{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photos-container{
+    background-color: #393E41;
+    width: 100vw;
+    min-height: 20vh;
+    padding: 4em;
+    overflow: hidden;
+    box-sizing: border-box;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 4em;
+    justify-content: center;
+}
+
+.photo {
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+    font-size:150px;
+}

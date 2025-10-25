@@ -1,10 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
 html, body{
     margin: 0;
     padding: 0;
 }
 
 *{
+    font-family: "Rubik", sans-serif;
     margin: 0;
     outline: none;
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px 1px;
+    border-color: #393E41;
+}
+
+button{
+    width: 120px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 300ms;
+    border: 1px 1px;
+    border-color: #393E41;
+}
+
+button:hover{
+    background-color: #393E41;
+    color: #fff;
+}
+
+.delete{
+    color: #E94F37;
+    border-color: #E94F37;
+}
+
+.delete:hover{
+    background-color: #E94F37;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px #5995ED;
 }
